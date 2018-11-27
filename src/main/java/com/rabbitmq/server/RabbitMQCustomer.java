@@ -10,6 +10,7 @@ public class RabbitMQCustomer {
     public static final String QUEUE_NAME = "rabbitMQ queue";
 
     public static void main(String[] args) throws Exception {
+        //连接操作
         ConnectionFactory connectionFactory = new ConnectionFactory();
         connectionFactory.setUsername("root");
         connectionFactory.setPassword("123456");
